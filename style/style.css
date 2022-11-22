@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+/* TYPOGRAPHY */
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.name {
+    color: #f8f8f8;
+    margin-top: auto;
+}
+
+.bio {
+    color: #b7b7b7;
+    font-weight: 300;
+}
+
+
+/* ICONS & IMAGES */
+.top-icon {
+    max-width: 30px;
+}
+
+.logo {
+    width: 60px;
+}
+.badge {
+    width: 100%;
+}
+
+
+/* LAYOUT */
+main {
+    height: 78vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header,
+.actions-content {
+    padding: 1em 0;
+}
+.content {
+    height: 100%;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+.content,
+.header,
+.actions-content {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.actions-content {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+.top-badge {
+    width: 50%;
+    max-width: 200px;
+    order: -2;
+}
+
+/* BUTTONS */
+.icon-btn {
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.reject:hover,
+.reject:focus {
+    background-color: #FFE7EF;
+}
+.accept:hover,
+.accept:focus {
+    background-color: #DBFFF4;
+}
+
+/* UTILITY */
+.hidden {
+    display: none;
+}
